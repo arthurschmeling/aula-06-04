@@ -1,0 +1,25 @@
+package javaapplication111;
+
+import java.util.Scanner;
+
+public class JavaApplication111 {
+
+    public static void main(String[] args) {
+       double nota []=  new double[3];
+       double media; int i;
+       Scanner ler= new Scanner(System.in);
+        System.out.println("digite a 1 nota");
+        nota[0]=ler.nextDouble();
+        System.out.println("insira a segunda nota");
+        nota[1]=ler.nextDouble();
+        System.out.println("digite a terceira nota");
+        nota[2]=ler.nextDouble();
+        //procesamento//
+        media=(nota[0] + nota[1] + nota[2])/3;
+        System.out.println("media: "+media);
+        System.out.println("nota 1: " + nota[0]+ " - nota 2: " +nota[1]+ "- nota 3: " + nota[2]);
+        
+    }
+    }
+    
+
