@@ -1,0 +1,23 @@
+package javaapplication111;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class JavaApplication111 {
+
+    public static void main(String[] args) {
+       double nota []=  new double[6];
+       double media=0; 
+       int i;
+       Scanner ler = new Scanner(System.in);
+       DecimalFormat decimal= new DecimalFormat("0.00");
+       for (i=0; i<nota.length; i++){
+           System.out.println("digite a  " +(i + 1)+ " nota");
+           nota[1]= ler.nextDouble();
+           media= media+nota[1];
+       }
+       media= media/i;
+        System.out.println("a media e: "+media);
+    }
+    }
+    
